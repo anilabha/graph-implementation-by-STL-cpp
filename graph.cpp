@@ -22,7 +22,8 @@ int main() {
 
      vector<list<int> >::iterator i;
      int c=0;
-    for (vector<list<int> >::iterator i=adjList.begin(); i !=adjList.end(); ++i){
+    for (vector<list<int> >::iterator i=adjList.begin(); i !=adjList.end(); ++i)//you can declear i by auto instead of vector<list<int> >::iterator
+    {
 
 
         cout<<"vertices connected to node "<<c <<" are ";
