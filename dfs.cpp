@@ -34,11 +34,7 @@ int main()
 { 
 	int V = 5; 
 
-	// The below line may not work on all 
-	// compilers. If it does not work on 
-	// your compiler, please replace it with 
-	// following 
-	//  
+	  
 	//vector<int> adj[V]; 
     vector<int> *adj = new vector<int>[V];
 
