@@ -4,8 +4,7 @@ using namespace std;
 /*created by Anilabha Baral*/
 
 // To add an edge 
-void addEdge(vector <pair<int, int> > adj[], int u, 
-									int v, int wt) 
+void addEdge(vector <pair<int, int> > adj[], int u, int v, int wt) 
 { 
 	adj[u].push_back(make_pair(v, wt)); 
 	adj[v].push_back(make_pair(u, wt)); 
